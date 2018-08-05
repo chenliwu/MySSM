@@ -1,7 +1,8 @@
 package com.charlie.ssm.demo.service.impl;
 
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.charlie.ssm.demo.common.entity.ResultEntity;
-import com.charlie.ssm.demo.dao.UserDao;
+import com.charlie.ssm.demo.mapper.UserMapper;
 import com.charlie.ssm.demo.entity.UserEntity;
 import com.charlie.ssm.demo.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +15,10 @@ import java.util.List;
  * @create 2018-06-29 9:39
  **/
 @Service
-public class UserServiceImpl implements IUserService {
+public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> implements IUserService {
 
     @Autowired
-    private UserDao mUserDao;
+    private UserMapper mUserDao;
 
     /**
      * 用户登录
@@ -76,7 +77,7 @@ public class UserServiceImpl implements IUserService {
             resultEntity.setMessage("参数有误");
             return resultEntity;
         }
-        int nResult = mUserDao.deleteByPrimaryKey(userEntity.getUserId());
+        int nResult = mUserDao.deleteById(userEntity.getUserId());
         if(nResult > 0){
             resultEntity.setState(200);
             resultEntity.setMessage("删除用户成功");

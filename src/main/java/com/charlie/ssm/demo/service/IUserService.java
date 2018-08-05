@@ -3,10 +3,13 @@ package com.charlie.ssm.demo.service;
 import com.charlie.ssm.demo.common.entity.ResultEntity;
 import com.charlie.ssm.demo.entity.UserEntity;
 
+import java.util.List;
+
 /**
  *
  */
 public interface IUserService {
+
 
     /**
      * 用户登录
