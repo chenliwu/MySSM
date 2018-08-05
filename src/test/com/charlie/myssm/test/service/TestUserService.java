@@ -40,13 +40,63 @@ public class TestUserService {
         System.out.println(resultEntity.toString());
     }
 
-    @Test
-    public void testLogin1(){
 
+    /********************  使用MyBatis-Plus条件构造器 *******************************/
+
+    @Test
+    public void testSelect(){
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
+        //按照user_id字段排序，降序排列DESC
+        wrapper.orderBy("user_id",false);
+        List<UserEntity> list = userService.selectList(wrapper);
+        System.out.println("size = "+list.size());
+        for(UserEntity entity:list){
+            System.out.println(entity.toString());
+        }
     }
 
     /**
-     * 测试模糊查询
+     * 通过实体类动态添加where查询语句
+     *  SELECT
+     user_id AS userId,
+     username,
+     `password`
+     FROM
+     tb_user
+     WHERE
+     username='chenlw'
+     AND `password`='chenlw'
+     */
+    @Test
+    public void testLogin1(){
+        UserEntity userEntity = new UserEntity();
+        userEntity.setUsername("chenlw");
+        userEntity.setPassword("chenlw");
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>(userEntity);
+        List<UserEntity> list = userService.selectList(wrapper);
+        System.out.println("size = "+list.size());
+        for(UserEntity entity:list){
+            System.out.println(entity.toString());
+        }
+    }
+
+
+    @Test
+    public void testLogin2(){
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
+        Object[] param = new Object[]{"clw2","clw3","clw4"};
+        wrapper.in("username",param);
+        List<UserEntity> list = userService.selectList(wrapper);
+        System.out.println("size = "+list.size());
+        for(UserEntity entity:list){
+            System.out.println(entity.toString());
+        }
+    }
+
+
+
+    /**
+     * 模糊查询
      */
     @Test
     public void testLikeQuery(){

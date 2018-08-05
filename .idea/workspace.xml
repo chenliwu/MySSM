@@ -7,211 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ffa5193-cb57-4a0e-a0de-8b69893cc675" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_2_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/controller/ConfigController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/entity/ResultEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/exception/GlobalExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/init/InitSystem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/CommentedProperties$LineReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/CommentedProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/JsonUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/LogUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/MD5Utils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/P6SpyLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/SqlFormatter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/SqlFormatter$FormatProcess.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/common/utils/SqlFormatter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/controller/GuideController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/dao/UserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/entity/UserEntity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/filter/LoginFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/service/IUserService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/com/charlie/ssm/demo/service/impl/UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/jdbc.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/mapper/UserDao.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/mybatis-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/springMVC-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/classes/spy.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/commons-beanutils-1.7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/commons-collections-3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/commons-lang-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/ezmorph-1.0.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/httpclient-4.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/httpcore-4.4.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/jackson-core-2.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/jackson-databind-2.9.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/json-lib-2.2.2-jdk15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/json-lib-ext-spring-1.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/mybatis-3.4.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/mysql-connector-java-5.1.30.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/p6spy-3.4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/poi-3.10.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/servlet-api-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/slf4j-log4j12-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-aop-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-aspects-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-beans-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-context-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-core-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-expression-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-jdbc-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-tx-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-web-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/lib/spring-webmvc-4.3.12.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/js/jquery-2.1.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/layui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/layui.mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/code.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/laydate/default/laydate.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/font/iconfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/font/iconfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/font/iconfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/font/iconfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/images/face/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/flow.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/form.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/laydate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/layedit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/layer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/laypage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/laytpl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/upload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/lay/modules/util.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/layui.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/layui/layui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/pages/global/mylinks.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/WebLoginDemo/page/pages/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/dao/UserDao.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/common/utils/CommentedProperties.class" afterPath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/common/utils/CommentedProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/common/utils/SqlFormatter$FormatProcess.class" afterPath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/common/utils/SqlFormatter$FormatProcess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/common/utils/SqlFormatter.class" afterPath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/common/utils/SqlFormatter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/controller/GuideController.class" afterPath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/controller/GuideController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/entity/UserEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/entity/UserEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/service/IUserService.class" afterPath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/service/IUserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/charlie/myssm/test/service/TestUserService.class" afterPath="$PROJECT_DIR$/target/test-classes/com/charlie/myssm/test/service/TestUserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MySSM_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MySSM_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/MySSM_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/MySSM_war_exploded.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/service/IUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/charlie/ssm/demo/service/impl/UserServiceImpl.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MySSM.iml" afterPath="$PROJECT_DIR$/MySSM.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/entity/UserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/entity/UserEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/IUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/IUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/springMVC-config.xml" afterPath="$PROJECT_DIR$/src/main/resources/springMVC-config.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/charlie/myssm/test/service/TestUserService.java" afterPath="$PROJECT_DIR$/src/test/com/charlie/myssm/test/service/TestUserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserDao.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/springMVC-config.xml" afterPath="$PROJECT_DIR$/target/classes/springMVC-config.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/mapper/UserMapper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -224,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestUserService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestUserService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/charlie/myssm/test/service/TestUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/IUserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="352">
               <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
               <folding />
             </state>
@@ -286,9 +85,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/springMVC-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/com/charlie/myssm/test/service/TestUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/IUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/com/charlie/myssm/test/service/TestUserService.java" />
       </list>
     </option>
   </component>
@@ -326,10 +125,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
+    <option name="x" value="20" />
     <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -437,7 +236,7 @@
     <property name="nodejs_interpreter_path" value="E:/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactNativeDemo/ReactNativeDemo" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -467,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestUserService.testLikeQuery">
+  <component name="RunManager" selected="JUnit.TestUserService.testLogin2">
     <configuration name="MySSM" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.32" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -615,6 +414,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="TestUserService.testLogin2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.charlie.myssm.test.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MySSM" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.charlie.myssm.test.service" />
+      <option name="MAIN_CLASS_NAME" value="com.charlie.myssm.test.service.TestUserService" />
+      <option name="METHOD_NAME" value="testLogin2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestUserService.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.charlie.myssm.test.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MySSM" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.charlie.myssm.test.service" />
+      <option name="MAIN_CLASS_NAME" value="com.charlie.myssm.test.service.TestUserService" />
+      <option name="METHOD_NAME" value="testSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -696,17 +545,21 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.MySSM" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin1" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.TestUserService.testLikeQuery" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin2" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestUserService.testSelect" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestUserService.testLikeQuery" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin1" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestUserService.testSelect" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin1" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestUserService.testLikeQuery" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestUserService.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -724,16 +577,21 @@
       <workItem from="1530187841839" duration="1281000" />
       <workItem from="1530204616887" duration="10143000" />
       <workItem from="1533473809022" duration="1149000" />
-      <workItem from="1533477641231" duration="2469000" />
+      <workItem from="1533477641231" duration="4356000" />
     </task>
+    <task id="LOCAL-00001" summary="集成MyBatis-Plus">
+      <created>1533481067217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533481067217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="TestUserService_testLikeQuery - 2018.08.05 at 22h 12m 21s.xml">
       <configuration name="TestUserService.testLikeQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUserService_testLogin - 2018.06.29 at 10h 54m 46s.xml">
-      <configuration name="TestUserService.testLogin" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestUserService_testLogin - 2018.06.29 at 10h 56m 22s.xml">
       <configuration name="TestUserService.testLogin" configurationId="JUnit" />
@@ -750,9 +608,21 @@
     <history-entry file="TestUserService_testLogin1 - 2018.08.05 at 21h 05m 50s.xml">
       <configuration name="TestUserService.testLogin1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestUserService_testLogin1 - 2018.08.05 at 23h 03m 30s.xml">
+      <configuration name="TestUserService.testLogin1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService_testLogin2 - 2018.08.05 at 23h 05m 16s.xml">
+      <configuration name="TestUserService.testLogin2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService_testLogin2 - 2018.08.05 at 23h 28m 28s.xml">
+      <configuration name="TestUserService.testLogin2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestUserService_testSelect - 2018.08.05 at 23h 10m 58s.xml">
+      <configuration name="TestUserService.testSelect" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16895000" />
+    <option name="totallyTimeSpent" value="18782000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -799,6 +669,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="集成MyBatis-Plus" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成MyBatis-Plus" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -806,16 +680,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/controller/GuideController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -911,6 +775,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -949,6 +814,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="27" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -985,6 +851,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,6 +991,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,14 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
           <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/charlie/myssm/test/service/TestUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1181,10 +1043,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="16">
+            <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/charlie/ssm/demo/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="352">
           <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/charlie/myssm/test/service/TestUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
         </state>
       </provider>
