@@ -4,8 +4,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @author chenliwu
- * @create 2018-06-29 15:57
+ * 导航Controller
+ *
+ * @author: chenlw
+ * @date 2018/8/5  11:13
  **/
 @Controller
 public class GuideController {
