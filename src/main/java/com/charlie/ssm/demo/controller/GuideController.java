@@ -20,7 +20,7 @@ public class GuideController {
 
     @RequestMapping(value = "/login")
     public  String toLoginPage(){
-        return "page/pages/login";
+        return "page/pages/login1";
     }
 
 }

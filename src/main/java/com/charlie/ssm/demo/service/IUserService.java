@@ -8,7 +8,9 @@ import java.util.List;
 /**
  *
  */
-public interface IUserService {
+public interface IUserService{
+
+    UserEntity login1(UserEntity userEntity);
 
 
     /**

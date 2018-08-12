@@ -1,6 +1,7 @@
 package com.charlie.myssm.test.service;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
+import com.baomidou.mybatisplus.plugins.Page;
 import com.charlie.ssm.demo.common.entity.ResultEntity;
 import com.charlie.ssm.demo.entity.UserEntity;
 import com.charlie.ssm.demo.service.IUserService;
@@ -39,6 +40,31 @@ public class TestUserService {
         ResultEntity resultEntity = mUserService.login(userEntity);
         System.out.println(resultEntity.toString());
     }
+
+
+
+    /**
+     * 测试分页：使用MyBatis-Plus现有的方法
+     *
+     * @author: chenlw
+     * @date 2018/8/6  22:49
+     **/
+    @Test
+    public void testSelectPage(){
+        Page<UserEntity> page = new Page<>(1,10);
+
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
+        wrapper.orderBy("user_id",false);
+        //传递page对象到selectPage里面，插件会自动添加limit语句实现分页查询
+        page = userService.selectPage(page,wrapper);
+        List<UserEntity> list = page.getRecords();
+        System.out.println("page:"+page.toString());
+        for(UserEntity entity:list){
+            System.out.println(entity.toString());
+        }
+    }
+
+
 
 
     /********************  使用MyBatis-Plus条件构造器 *******************************/

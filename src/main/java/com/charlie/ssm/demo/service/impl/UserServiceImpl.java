@@ -1,5 +1,6 @@
 package com.charlie.ssm.demo.service.impl;
 
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.charlie.ssm.demo.common.entity.ResultEntity;
 import com.charlie.ssm.demo.mapper.UserMapper;
@@ -17,8 +18,30 @@ import java.util.List;
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> implements IUserService {
 
+
+
+
+    /***************************  使用MyBatis-Plus的写法 start****************************/
+
+    @Override
+    public UserEntity login1(UserEntity userEntity) {
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
+        wrapper.setEntity(userEntity);
+        List<UserEntity> list = baseMapper.selectList(wrapper);
+        if(list.size() > 0){
+            return list.get(0);
+        }
+        return null;
+    }
+
+
+    /***************************  使用MyBatis-Plus的写法 end****************************/
+
+
+
+    /**************************  不使用MyBayis-Plus的写法 ****************************/
     @Autowired
-    private UserMapper mUserDao;
+    private UserMapper userMapper;
 
     /**
      * 用户登录
@@ -32,7 +55,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> impleme
             resultEntity.setMessage("用户名或密码为空");
             return resultEntity;
         }
-        List<UserEntity> list = mUserDao.selectRecordsByParameter(userEntity);
+        List<UserEntity> list = userMapper.selectRecordsByParameter(userEntity);
         if(list.size() > 0){
             resultEntity.setMessage("登录成功");
             resultEntity.setState(200);
@@ -55,7 +78,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> impleme
             resultEntity.setMessage("用户名或密码为空");
             return resultEntity;
         }
-        int nResult = mUserDao.insert(userEntity);
+        int nResult = userMapper.insert(userEntity);
         if(nResult > 0){
             resultEntity.setState(200);
             resultEntity.setMessage("注册成功");
@@ -77,7 +100,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> impleme
             resultEntity.setMessage("参数有误");
             return resultEntity;
         }
-        int nResult = mUserDao.deleteById(userEntity.getUserId());
+        int nResult = userMapper.deleteById(userEntity.getUserId());
         if(nResult > 0){
             resultEntity.setState(200);
             resultEntity.setMessage("删除用户成功");
