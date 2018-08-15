@@ -218,12 +218,25 @@
         </dependency>
 
 
+        <!--JPA start-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+            <version>1.10.4.RELEASE</version>
+        </dependency>
+        <!--JPA end-->
+
+
         <!-- 导入Mysql数据库链接jar包 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.30</version>
         </dependency>
+
+
+
+
 
     </dependencies>
 

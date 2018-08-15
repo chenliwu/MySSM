@@ -107,7 +107,7 @@
             setTimeout(function () {
                 $.ajax({
                     type: "POST",
-                    url: "${ctx}/user/login",   //请求URL地址
+                    url: "${ctx}/api/user/login",   //请求URL地址
                     dataType: "json",           //服务器返回数据类型
                     data: {username: username, password: password}, //请求参数
                     success: onSuccess, //请求成功回调方法

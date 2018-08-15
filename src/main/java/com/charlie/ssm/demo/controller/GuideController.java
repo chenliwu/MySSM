@@ -12,6 +12,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class GuideController {
 
+    @RequestMapping(value = "/testPath")
+    public String testPath(){
+        return "page/testPath";
+    }
+
+    @RequestMapping(value = "/list")
+    public String list(){
+        return "page/pages/user/list";
+    }
 
     @RequestMapping(value = "/index")
     public  String toMainPage(){

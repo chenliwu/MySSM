@@ -15,18 +15,18 @@
     </context-param>
 
 
-    <!--
-        登录过滤器,会对指定URL执行过滤操作：如果用户没有登录，让其跳转到登录界面
-       -->
-    <filter>
-        <filter-name>LoginFilter</filter-name>
-        <filter-class>com.charlie.ssm.demo.filter.LoginFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>LoginFilter</filter-name>
-        <url-pattern>/index</url-pattern>
-        <url-pattern>/page/pages/*</url-pattern>
-    </filter-mapping>
+    <!--&lt;!&ndash;-->
+        <!--登录过滤器,会对指定URL执行过滤操作：如果用户没有登录，让其跳转到登录界面-->
+       <!--&ndash;&gt;-->
+    <!--<filter>-->
+        <!--<filter-name>LoginFilter</filter-name>-->
+        <!--<filter-class>com.charlie.ssm.demo.filter.LoginFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>LoginFilter</filter-name>-->
+        <!--<url-pattern>/index</url-pattern>-->
+        <!--<url-pattern>/page/pages/*</url-pattern>-->
+    <!--</filter-mapping>-->
 
     <!--字符串乱码 -->
     <filter>

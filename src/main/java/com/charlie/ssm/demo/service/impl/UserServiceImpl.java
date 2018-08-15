@@ -1,6 +1,7 @@
 package com.charlie.ssm.demo.service.impl;
 
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
+import com.baomidou.mybatisplus.plugins.Page;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import com.charlie.ssm.demo.common.entity.ResultEntity;
 import com.charlie.ssm.demo.mapper.UserMapper;
@@ -19,9 +20,24 @@ import java.util.List;
 public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> implements IUserService {
 
 
-
+    @Override
+    public Page<UserEntity> queryPage(UserEntity userEntity, Page<UserEntity> page) {
+        System.out.println("分页查询："+userEntity.toString());
+        System.out.println("page:"+page.toString());
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>(userEntity);
+        page = selectPage(page,wrapper);
+        List<UserEntity> list = page.getRecords();
+        System.out.println("size = "+list.size());
+        for(UserEntity entity:list){
+            System.out.println(entity.toString());
+        }
+        return page;
+    }
 
     /***************************  使用MyBatis-Plus的写法 start****************************/
+
+
+
 
     @Override
     public UserEntity login1(UserEntity userEntity) {
@@ -33,6 +49,9 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> impleme
         }
         return null;
     }
+
+
+
 
 
     /***************************  使用MyBatis-Plus的写法 end****************************/

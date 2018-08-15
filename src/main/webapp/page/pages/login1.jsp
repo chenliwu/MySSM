@@ -7,12 +7,12 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<c:set var="ctx" value="${pageContext.request.contextPath}"/>
+<c:set var="ctx" value="<%=request.getContextPath()%>"/>
 <html>
 <head>
     <title>用户登录</title>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/page/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/page/bootstrapvalidator-0.4.5/dist/css/bootstrapValidator.min.css" />
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/page/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="<%=request.getContextPath()%>/page/bootstrapvalidator-0.4.5/dist/css/bootstrapValidator.min.css" />
 </head>
 <body>
 
@@ -55,11 +55,12 @@
             </form>
         </div>
     </div>
+
 </div>
 
-<script type="text/javascript" src="${pageContext.request.contextPath}/page/js/jquery-2.1.0.min.js"></script>
-<script src="${pageContext.request.contextPath}/page/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
-<script src="${pageContext.request.contextPath}/page/bootstrapvalidator-0.4.5/dist/js/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/page/js/jquery-2.1.0.min.js"></script>
+<script src="<%=request.getContextPath()%>/page/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="<%=request.getContextPath()%>/page/bootstrapvalidator-0.4.5/dist/js/bootstrapValidator.min.js"></script>
 <script>
 
     $(function () {
@@ -76,12 +77,12 @@
             var username = $("#usernameElement").val();
             var password = $("#passwordElement").val();
             $.post(
-                "${pageContext.request.contextPath}/user/login1",
+                "<%=request.getContextPath()%>/api/user/login1",
                 {username:username,password:password},
                 function(data,textStatus){
                     console.log(data);
                     if(data){
-                        $(window).attr('location', '${ctx}/index');
+                        $(window).attr('location', '${ctx}/list');
                     }else{
                         alert("登录失败");
                     }
