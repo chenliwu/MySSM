@@ -43,7 +43,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, UserEntity> impleme
     public UserEntity login1(UserEntity userEntity) {
         EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
         wrapper.setEntity(userEntity);
-        List<UserEntity> list = baseMapper.selectList(wrapper);
+        //List<UserEntity> list = baseMapper.selectList(wrapper);
+        List<UserEntity> list = baseMapper.selectListByParameter(userEntity);
         if(list.size() > 0){
             return list.get(0);
         }
