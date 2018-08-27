@@ -17,6 +17,17 @@ public class GuideController {
         return "page/testPath";
     }
 
+
+    @RequestMapping(value = "/viewImg")
+    public String viewImg(){
+        return "page/viewImg";
+    }
+
+    @RequestMapping(value = "/testDownFile")
+    public String testDownFile(){
+        return "page/testDownFile";
+    }
+
     @RequestMapping(value = "/list")
     public String list(){
         return "page/pages/user/list";
