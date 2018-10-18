@@ -8,9 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -28,16 +26,43 @@ public class UserRestController {
 
     @GetMapping("/queryPage")
     @ResponseBody
-    public Page<UserEntity> queryPage(UserEntity userEntity,@PageableDefault Page<UserEntity> page){
-        return  mIUserService.queryPage(userEntity,page);
+    public Page<UserEntity> queryPage(UserEntity userEntity, @PageableDefault Page<UserEntity> page) {
+        return mIUserService.queryPage(userEntity, page);
     }
 
     @GetMapping("/queryList")
     @ResponseBody
-    public List<UserEntity> queryList(UserEntity userEntity, @PageableDefault Page<UserEntity> page){
-        return  mIUserService.queryPage(userEntity,page).getRecords();
+    public List<UserEntity> queryList(UserEntity userEntity, @PageableDefault Page<UserEntity> page) {
+        return mIUserService.queryPage(userEntity, page).getRecords();
     }
 
+
+    @GetMapping("/queryOne")
+    @ResponseBody
+    public ResultEntity queryOne(@RequestParam("username") String username,
+                                 @RequestParam("password") String password) {
+        UserEntity params = new UserEntity();
+        params.setUsername(username);
+        params.setPassword(password);
+        ResultEntity resultEntity = mIUserService.login(params);
+        return resultEntity;
+    }
+
+    @PostMapping("/queryOne1")
+    @ResponseBody
+    public ResultEntity queryOne1(@RequestBody UserEntity userEntity) {
+//        UserEntity userEntity = new UserEntity();
+//
+//        if (params.get("username") != null) {
+//            userEntity.setUsername(params.get("username"));
+//        }
+//        if (params.get("password") != null) {
+//            userEntity.setUsername(params.get("userEntity"));
+//        }
+
+        ResultEntity resultEntity = mIUserService.login(userEntity);
+        return resultEntity;
+    }
 
 
     @RequestMapping(value = "/login1")

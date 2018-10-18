@@ -107,11 +107,42 @@ public class TestUserService {
     }
 
 
+    /**
+     * 使用in运算符
+     */
     @Test
     public void testLogin2(){
         EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
         Object[] param = new Object[]{"clw2","clw3","clw4"};
         wrapper.in("username",param);
+        List<UserEntity> list = userService.selectList(wrapper);
+        System.out.println("size = "+list.size());
+        for(UserEntity entity:list){
+            System.out.println(entity.toString());
+        }
+    }
+
+    /**
+     * 代码使用where子句
+     */
+    @Test
+    public void testLogin3(){
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
+        wrapper.where("username = {0} AND password = {1} ","(select * from tb_user)","chenlw");
+        List<UserEntity> list = userService.selectList(wrapper);
+        System.out.println("size = "+list.size());
+        for(UserEntity entity:list){
+            System.out.println(entity.toString());
+        }
+    }
+
+    /**
+     * 代码使用使用eq，这种适用于单个条件
+     */
+    @Test
+    public void testLogin4(){
+        EntityWrapper<UserEntity> wrapper = new EntityWrapper<>();
+        wrapper.eq("username","chenlw");
         List<UserEntity> list = userService.selectList(wrapper);
         System.out.println("size = "+list.size());
         for(UserEntity entity:list){
