@@ -24,9 +24,12 @@ public class ApiCondensationRestController {
     public Map test1(HttpServletRequest request, HttpServletResponse response) {
         Map<String, String> result = new HashMap<>();
         Enumeration<String> parameterNames = request.getParameterNames();
+        //遍历请求里面携带的参数
         while(parameterNames.hasMoreElements()){
             String parameterName = parameterNames.nextElement();
-            System.out.println(parameterName);
+            String paramValue  = request.getParameter(parameterName);
+            System.out.println(parameterName+":"+paramValue);
+            result.put(parameterName,paramValue);
         }
         return result;
     }
