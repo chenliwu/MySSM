@@ -3,6 +3,7 @@ package com.charlie.ssm.demo.filesystem.Controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
@@ -16,7 +17,10 @@ import java.net.URLEncoder;
 public class FileRestController {
 
     @GetMapping("/downFile")
-    public void downFile(HttpServletResponse response) throws Exception{
+    public void downFile(HttpServletResponse response, @RequestParam("downPath") String downPath) throws Exception{
+
+        System.out.println("downPath:"+downPath);
+
         String filePath = "F:/myimg.jpg";
         File file = new File(filePath);
         if(!file.exists()){
