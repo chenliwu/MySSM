@@ -38,6 +38,7 @@
     <filter-mapping>
         <filter-name>ApiCertificationFilter</filter-name>
         <url-pattern>/api/apiCondensation/test1</url-pattern>
+        <url-pattern>/api/apiCondensation/test2</url-pattern>
     </filter-mapping>
 
 

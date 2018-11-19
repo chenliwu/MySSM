@@ -36,7 +36,13 @@ public class ApiCertificationFilter implements Filter {
             String path = request.getContextPath();
             String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";
             System.out.println("basePath=" + basePath);
-            request.getRequestDispatcher("/api/apiCondensation/handleBadRequest").forward(request, response);
+            if("GET".equals(request.getMethod())){
+                request.getRequestDispatcher("/api/apiCondensation/handleBadGetRequest").forward(request, response);
+            }else{
+                request.getRequestDispatcher("/api/apiCondensation/handleBadPostRequest").forward(request, response);
+            }
+
+
         }
     }
 
