@@ -27,9 +27,11 @@ public class ApiCertificationFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         String apiSecret = "chenlw";
         if (ApiRequestCertificationUtils.checkSig(request, apiSecret)) {
+            System.out.println("API接口签名验证通过");
             //正常跳转
             filterChain.doFilter(request, response);
         } else {
+            System.out.println("API接口签名验证失败");
             //把请求转发到处理不合法请求的Controller
             String path = request.getContextPath();
             String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/";

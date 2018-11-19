@@ -71,9 +71,10 @@
             var bv = $("#loginForm").data('bootstrapValidator');
             bv.validate();
             if (!bv.isValid()) {
+                console.log("校验数据不通过");
                 return;
             }
-
+            console.log("校验数据通过");
             var username = $("#usernameElement").val();
             var password = $("#passwordElement").val();
             $.post(

@@ -14,6 +14,32 @@
         <param-value>classpath:springMVC-config.xml</param-value>
     </context-param>
 
+    <!--配置springMVC前端控制器-->
+    <servlet>
+        <servlet-name>springMVC</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <!--springMVC配置文件-->
+            <param-value>classpath*:/springMVC-config.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>springMVC</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+    <filter>
+        <filter-name>ApiCertificationFilter</filter-name>
+        <filter-class>com.charlie.ssm.demo.filter.ApiCertificationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>ApiCertificationFilter</filter-name>
+        <url-pattern>/api/apiCondensation/test1</url-pattern>
+    </filter-mapping>
+
 
     <!--&lt;!&ndash;-->
         <!--登录过滤器,会对指定URL执行过滤操作：如果用户没有登录，让其跳转到登录界面-->
@@ -27,6 +53,8 @@
         <!--<url-pattern>/index</url-pattern>-->
         <!--<url-pattern>/page/pages/*</url-pattern>-->
     <!--</filter-mapping>-->
+
+
 
     <!--字符串乱码 -->
     <filter>
@@ -47,21 +75,7 @@
     </filter-mapping>
 
 
-    <!--配置springMVC前端控制器-->
-    <servlet>
-        <servlet-name>springMVC</servlet-name>
-        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <init-param>
-            <param-name>contextConfigLocation</param-name>
-            <!--springMVC配置文件-->
-            <param-value>classpath*:/springMVC-config.xml</param-value>
-        </init-param>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>springMVC</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping>
+
 
     <!--允许加载js后缀名的文件。不加以下的代码，JS文件会被spring的过滤器拦截-->
     <servlet-mapping>

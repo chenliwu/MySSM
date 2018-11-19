@@ -1,4 +1,4 @@
-package com.charlie.ssm.demo.filesystem.Controller;
+package com.charlie.ssm.demo.filesystem.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
