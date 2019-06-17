@@ -218,9 +218,9 @@
             <version>2.0.1</version>
         </dependency>
         <!--<dependency>-->
-            <!--<groupId>com.baomidou</groupId>-->
-            <!--<artifactId>mybatis-plus</artifactId>-->
-            <!--<version>3.0.5</version>-->
+        <!--<groupId>com.baomidou</groupId>-->
+        <!--<artifactId>mybatis-plus</artifactId>-->
+        <!--<version>3.0.5</version>-->
         <!--</dependency>-->
 
 
@@ -246,6 +246,11 @@
             <version>1.18.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.1.23</version>
+        </dependency>
 
 
         <!--jackjson-->
@@ -273,12 +278,12 @@
         <resources>
             <!--每次用maven编译时它会将src/main/java和src/main/resources下的所有xml文件都进行引入-->
             <!--<resource>-->
-                <!--&lt;!&ndash;导入配置文件&ndash;&gt;-->
-                <!--<directory>src/main</directory>-->
-                <!--<includes>-->
-                    <!--<include>**/*</include>-->
-                <!--</includes>-->
-                <!--<filtering>true</filtering>-->
+            <!--&lt;!&ndash;导入配置文件&ndash;&gt;-->
+            <!--<directory>src/main</directory>-->
+            <!--<includes>-->
+            <!--<include>**/*</include>-->
+            <!--</includes>-->
+            <!--<filtering>true</filtering>-->
             <!--</resource>-->
 
             <!--这里的配置比较关键，如果不包含相关配置文件，程序运行会找不到配置文件报错-->

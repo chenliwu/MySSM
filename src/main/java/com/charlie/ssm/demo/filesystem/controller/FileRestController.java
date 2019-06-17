@@ -17,7 +17,12 @@ import java.net.URLEncoder;
 @RequestMapping("/api/files")
 public class FileRestController {
 
-
+    /**
+     * 测试字符串转化成文件并下载
+     *
+     * @param response
+     * @throws Exception
+     */
     @GetMapping("stringToFile")
     public void stringToFile(HttpServletResponse response) throws Exception {
         String content = "{id:'',category:'教务管理系统数据库（MySql）',dataset_name:'学生信息数据集',data_json:'111'}";
