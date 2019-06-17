@@ -1,5 +1,6 @@
 package com.charlie.ssm.demo.filesystem.controller;
 
+import com.charlie.ssm.demo.utils.StreamUtils;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,25 +17,75 @@ import java.net.URLEncoder;
 @RequestMapping("/api/files")
 public class FileRestController {
 
-    @GetMapping("/downFile")
-    public void downFile(HttpServletResponse response, @RequestParam("downPath") String downPath) throws Exception{
 
-        System.out.println("downPath:"+downPath);
+    @GetMapping("stringToFile")
+    public void stringToFile(HttpServletResponse response) throws Exception {
+        String content = "{id:'',category:'教务管理系统数据库（MySql）',dataset_name:'学生信息数据集',data_json:'111'}";
+
+        InputStream inputStream = null;
+        OutputStream outputStream = null;
+
+        String fileName = "stringToFile.btcharts";
+
+        try {
+
+            //转码，免得文件名中文乱码
+            String filename = URLEncoder.encode(fileName, "UTF-8");
+            //设置文件下载头
+            response.addHeader("Content-Disposition", "attachment;filename=" + filename);
+            //response.addHeader("Content-Length", String.valueOf(file.length()));
+            //设置文件ContentType类型
+            response.setContentType("multipart/form-data");
+
+            //将字符串转化成输入流
+            inputStream = StreamUtils.getStringStream(content);
+            //获取相应输出流
+            outputStream = response.getOutputStream();
+            byte[] buff = new byte[1024];
+            int length;
+            while ((length = inputStream.read(buff)) > 0) {
+                outputStream.write(buff, 0, length);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (outputStream != null) {
+                outputStream.close();
+            }
+            if (inputStream != null) {
+                inputStream.close();
+            }
+        }
+
+    }
+
+
+    /**
+     * 下载文件
+     *
+     * @param response
+     * @param downPath
+     * @throws Exception
+     */
+    @GetMapping("/downFile")
+    public void downFile(HttpServletResponse response, @RequestParam("downPath") String downPath) throws Exception {
+
+        System.out.println("downPath:" + downPath);
 
         String filePath = "F:/myimg.jpg";
         File file = new File(filePath);
-        if(!file.exists()){
+        if (!file.exists()) {
             System.out.println("文件不存在");
-            return ;
+            return;
         }
         InputStream inputStream = null;
-        OutputStream outputStream =null;
+        OutputStream outputStream = null;
         try {
             //转码，免得文件名中文乱码
-            String filename = URLEncoder.encode(file.getName(),"UTF-8");
+            String filename = URLEncoder.encode(file.getName(), "UTF-8");
             //设置文件下载头
-            response.addHeader("Content-Disposition", "attachment;filename="+ filename);
-            response.addHeader("Content-Length",String.valueOf(file.length()));
+            response.addHeader("Content-Disposition", "attachment;filename=" + filename);
+            response.addHeader("Content-Length", String.valueOf(file.length()));
             //设置文件ContentType类型
             response.setContentType("multipart/form-data");
 
@@ -50,10 +101,10 @@ public class FileRestController {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if(outputStream!=null){
+            if (outputStream != null) {
                 outputStream.close();
             }
-            if(inputStream!=null){
+            if (inputStream != null) {
                 inputStream.close();
             }
         }
@@ -61,10 +112,10 @@ public class FileRestController {
 
 
     @GetMapping("/getImg")
-    public void getImg(HttpServletResponse response) throws IOException{
+    public void getImg(HttpServletResponse response) throws IOException {
         //读取本地图片输入流
         String filePath = "F:/myimg.jpg";
-        if(new File(filePath).exists()){
+        if (new File(filePath).exists()) {
             FileInputStream inputStream = null;
             OutputStream out = null;
             try {
@@ -80,16 +131,16 @@ public class FileRestController {
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             } finally {
-                if(inputStream != null){
+                if (inputStream != null) {
                     //关闭输入流
                     inputStream.close();
                 }
-                if(out!=null){
+                if (out != null) {
                     //关闭响应输出流
                     out.close();
                 }
             }
-        }else{
+        } else {
             System.out.println("文件不存在");
         }
     }

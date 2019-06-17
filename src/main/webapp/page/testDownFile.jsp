@@ -22,10 +22,22 @@
     <button id="downFileElement" type="button">按钮下载文件</button>
 </div>
 
+<div>
+    <h3>测试字符串转化成文件并下载</h3>
+    <button id="testStringToFileElement" type="button">测试字符串转化成文件并下载</button>
+</div>
+
+
+
 <script>
     $(function () {
         $("#downFileElement").click(function () {
             location.href = basePath + "/api/files/downFile";
+        });
+
+
+        $("#testStringToFileElement").click(function () {
+            location.href = basePath + "/api/files/stringToFile";
         });
     });
 </script>
